@@ -6,3 +6,13 @@ function createPromise(position, delay) {
     // Reject
   }
 }
+
+// let timeoutId = null;
+
+// NOTIFICATION_DELAY = 3000;
+// timeoutId = setTimeout(() => {
+//   console.log();
+//   // hideNotification();
+// }, NOTIFICATION_DELAY);
+
+// clearTimeout(timeoutId);
