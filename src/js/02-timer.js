@@ -11,6 +11,7 @@ const minutesCounter = document.querySelector('[data-minutes]');
 const secondsCounter = document.querySelector('[data-seconds]');
 
 document.body.style.backgroundColor = '#88cedc25';
+startBtn.classList.add('btn-timer');
 
 startBtn.disabled = true;
 
