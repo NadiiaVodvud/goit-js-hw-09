@@ -10,6 +10,8 @@ const hoursCounter = document.querySelector('[data-hours]');
 const minutesCounter = document.querySelector('[data-minutes]');
 const secondsCounter = document.querySelector('[data-seconds]');
 
+document.body.style.backgroundColor = '#88cedc25';
+
 startBtn.disabled = true;
 
 const options = {

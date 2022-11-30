@@ -17,11 +17,60 @@ img {
   max-width: 100%;
 }
 
-.timer {
+#datetime-picker {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  margin-right: 10px;
 }
+
+button {
+  font-size: large;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 40px;
+  background-color: rgba(127, 255, 212, 0.115);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 7px;
+  align-items: center;
+  border-radius: 8px;
+  background: rgb(255 255 255 / 73%);
+}
+.field:not(:last-child)::after {
+  content: ':';
+  font-size: xx-large;
+  font-weight: bolder;
+  position: absolute;
+  right: -15px;
+  bottom: 58px;
 }
 .value {
+  font-size: xxx-large;
+  padding: 0, 20px;
 }
 .label {
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: #31a4b5db;
+  background: rgba(255, 255, 255, 0.638);
 }
