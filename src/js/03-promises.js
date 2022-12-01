@@ -45,4 +45,8 @@ function onSubmitClick(e) {
       });
     firstDelayValue += delayStepValue;
   }
+
+  e.currentTarget.reset();
+  // console.log(e.currentTarget);
+  // console.log(e.currentTarget);
 }
